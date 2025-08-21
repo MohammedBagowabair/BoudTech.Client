@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoudTech - بعد تك | تطوير تقني متقدم</title>
+
+    <!-- Bootstrap 5 RTL CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <!-- Google Fonts - Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-main">BoudTech</span>
+                <span class="brand-arabic">بعد تك</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#process">خطة العمل</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">أعمالنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies">التقنيات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">آراء العملاء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">أسئلة شائعة</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary navbar-cta">اتصل بنا</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="company-name">BoudTech</span>
+                            <span class="company-arabic">بعد تك</span>
+                        </h1>
+                        <p class="hero-tagline">نبني المستقبل الرقمي بتقنيات متطورة وحلول ذكية تجمع بين الأناقة والفعالية</p>
+                        <div class="hero-features">
+                            <div class="feature-item">
+                                <i class="bi bi-lightning-charge"></i>
+                                <span>سرعة في التنفيذ</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-award"></i>
+                                <span>جودة عالية</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-shield-check"></i>
+                                <span>أمان متقدم</span>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary btn-lg hero-cta">
+                                <i class="bi bi-chat-dots-fill ms-2"></i>
+                                ابدأ مشروعك الآن
+                            </a>
+                            <a href="#portfolio" class="btn btn-outline-primary btn-lg hero-secondary">
+                                <i class="bi bi-eye ms-2"></i>
+                                شاهد أعمالنا
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">خدماتنا</h2>
+                    <p class="section-subtitle">حلول تقنية شاملة لتطوير أعمالك الرقمية</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h4>تطوير المواقع الإلكترونية</h4>
+                        <p>مواقع حديثة وسريعة تتميز بالتصميم العصري والأداء المتفوق</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h4>تطبيقات الجوال</h4>
+                        <p>تطبيقات ذكية لأنظمة iOS و Android بتجربة مستخدم استثنائية</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h4>الحلول السحابية</h4>
+                        <p>بنية تحتية سحابية موثوقة وقابلة للتوسع لضمان الأداء الأمثل</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4>أمان المعلومات</h4>
+                        <p>حماية متقدمة لبياناتك وأنظمتك من التهديدات السيبرانية</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h4>تحليل البيانات</h4>
+                        <p>استخراج رؤى قيمة من بياناتك لاتخاذ قرارات أعمال ذكية</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>الاستشارات التقنية</h4>
+                        <p>خبراء تقنيين لمساعدتك في اختيار أفضل الحلول لأعمالك</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">خطة العمل</h2>
+                    <p class="section-subtitle">منهجية عمل منظمة لضمان تسليم مشروعك في الوقت المحدد</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="process-timeline-vertical">
+                        <div class="process-step-vertical step-right">
+                            <div class="step-indicator">
+                                <div class="step-number">1</div>
+                            </div>
+                            <div class="step-content-vertical">
+                                <div class="step-icon">
+                                    <i class="bi bi-chat-square-dots"></i>
+                                </div>
+                                <h5>الاستشارة والتخطيط</h5>
+                                <p>دراسة متطلباتك ووضع خطة مفصلة للمشروع</p>
+                            </div>
+                        </div>
+                        <div class="process-step-vertical step-left">
+                            <div class="step-indicator">
+                                <div class="step-number">2</div>
+                            </div>
+                            <div class="step-content-vertical">
+                                <div class="step-icon">
+                                    <i class="bi bi-palette"></i>
+                                </div>
+                                <h5>التصميم والنمذجة</h5>
+                                <p>تصميم واجهات مستخدم عصرية وتجربة استخدام مميزة</p>
+                            </div>
+                        </div>
+                        <div class="process-step-vertical step-right">
+                            <div class="step-indicator">
+                                <div class="step-number">3</div>
+                            </div>
+                            <div class="step-content-vertical">
+                                <div class="step-icon">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+                                <h5>التطوير والبرمجة</h5>
+                                <p>تطوير المشروع باستخدام أحدث التقنيات والمعايير</p>
+                            </div>
+                        </div>
+                        <div class="process-step-vertical step-left">
+                            <div class="step-indicator">
+                                <div class="step-number">4</div>
+                            </div>
+                            <div class="step-content-vertical">
+                                <div class="step-icon">
+                                    <i class="bi bi-check-circle"></i>
+                                </div>
+                                <h5>الاختبار والتسليم</h5>
+                                <p>اختبار شامل للمشروع وتسليمه جاهزاً للاستخدام</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">أعمالنا</h2>
+                    <p class="section-subtitle">مشاريع نفخر بإنجازها وتميزها</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="portfolioCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel" data-bs-interval="2000"  data-bs-pause="false">
+                        <div class="carousel-inner">
+
+                            <!-- Image 1 -->
+                            <div class="carousel-item active">
+                                <img src="assets/images/projects/albums.png" class="d-block w-100 carousel-img" alt="Albums Project">
+                            </div>
+
+                            <!-- Image 2 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/episodes.png" class="d-block w-100 carousel-img" alt="Episodes Project">
+                            </div>
+
+                            <!-- Image 3 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/events.png" class="d-block w-100 carousel-img" alt="Events Project">
+                            </div>
+
+                            <!-- Image 4 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/home.png" class="d-block w-100 carousel-img" alt="Home Project">
+                            </div>
+
+                            <!-- Image 5 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/homeCtegory.png" class="d-block w-100 carousel-img" alt="Home Category Project">
+                            </div>
+
+                            <!-- Image 6 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/touristattractions.png" class="d-block w-100 carousel-img" alt="Tourist Attractions Project">
+                            </div>
+
+                            <!-- Image 7 -->
+                            <div class="carousel-item">
+                                <img src="assets/images/projects/workshops.png" class="d-block w-100 carousel-img" alt="Workshops Project">
+                            </div>
+
+                        </div>
+
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="6"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- After Sales Section -->
+    <section id="after-sales" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">خدمات ما بعد البيع</h2>
+                    <p class="section-subtitle">دعم مستمر لضمان نجاح مشروعك</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="after-sales-item">
+                        <div class="service-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h5>دعم فني 24/7</h5>
+                        <p>فريق دعم متخصص متاح على مدار الساعة</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="after-sales-item">
+                        <div class="service-icon">
+                            <i class="bi bi-arrow-clockwise"></i>
+                        </div>
+                        <h5>تحديثات مجانية</h5>
+                        <p>تحديثات دورية للحفاظ على الأمان والأداء</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="after-sales-item">
+                        <div class="service-icon">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h5>دليل المستخدم</h5>
+                        <p>دليل شامل وتدريب لاستخدام النظام</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="after-sales-item">
+                        <div class="service-icon">
+                            <i class="bi bi-speedometer2"></i>
+                        </div>
+                        <h5>مراقبة الأداء</h5>
+                        <p>مراقبة مستمرة لضمان الأداء الأمثل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">التقنيات المستخدمة</h2>
+                    <p class="section-subtitle">نستخدم أحدث التقنيات لضمان جودة وموثوقية مشاريعنا</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-window"></i>
+                            </div>
+                            <span>.NET Core</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-server"></i>
+                            </div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-database"></i>
+                            </div>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-cloud"></i>
+                            </div>
+                            <span>Azure</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-git"></i>
+                            </div>
+                            <span>DevOps</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="bi bi-shield"></i>
+                            </div>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">آراء العملاء</h2>
+                    <p class="section-subtitle">ما يقوله عملاؤنا عن تجربتهم معنا</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <p>"فريق BoudTech قدم لنا حلولاً تقنية متطورة فاقت توقعاتنا. الموقع الذي طوروه لنا ساهم في زيادة مبيعاتنا بنسبة 40% خلال ثلاثة أشهر فقط."</p>
+                        <div class="testimonial-author">
+                            <h6>أحمد المحمود</h6>
+                            <span>مدير عام - شركة النور للتجارة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <p>"تطبيق الجوال الذي طوره فريق بعد تك غير طريقة عملنا تماماً. التصميم رائع والأداء ممتاز، والأهم من ذلك الدعم المستمر بعد التسليم."</p>
+                        <div class="testimonial-author">
+                            <h6>فاطمة العلي</h6>
+                            <span>مؤسسة - متجر الأناقة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">أسئلة شائعة</h2>
+                    <p class="section-subtitle">إجابات على الأسئلة الأكثر شيوعاً</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    كم يستغرق تطوير موقع إلكتروني؟
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    يختلف الوقت حسب تعقيد المشروع، لكن عادة ما نسلم المواقع البسيطة خلال 2-4 أسابيع، والمواقع المعقدة خلال 6-12 أسبوع.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    هل تقدمون خدمات الاستضافة والدومين؟
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نعم، نوفر خدمات الاستضافة السحابية المُحسنة والدومينات، ونضمن أداءً عالياً وأماناً متقدماً لموقعك.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    ما هي ضمانات ما بعد التسليم؟
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نقدم ضمان 6 أشهر لإصلاح أي أخطاء برمجية، ودعم فني مجاني لمدة 3 أشهر، وتحديثات أمنية دورية لمدة عام كامل.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    هل يمكنني تعديل المحتوى بنفسي بعد التسليم؟
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    بالطبع! نوفر لوحة إدارة سهلة الاستخدام تمكنك من تحديث المحتوى، الصور، والأخبار بسهولة، مع تدريب مجاني للفريق.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">اتصل بنا</h2>
+                    <p class="section-subtitle">ابدأ مشروعك التقني معنا اليوم</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h5>البريد الإلكتروني</h5>
+                                        <a href="mailto:boudtech.info@gmail.com">
+                                            boudtech.info@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <div class="contact-icon whatsapp">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h5>واتساب</h5>
+                                        <a href="https://wa.me/966500000000">+966 50 000 0000</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12 text-center">
+                                <div class="social-links">
+                                    <a href="#" class="social-link linkedin">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="#" class="social-link twitter">
+                                        <i class="bi bi-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-link instagram">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#" class="social-link github">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-about">
+                        <h5 class="footer-title">BoudTech - بعد تك</h5>
+                        <p class="footer-text">نبني المستقبل الرقمي بتقنيات متطورة وحلول ذكية تجمع بين الأناقة والفعالية</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link linkedin">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link github">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h6 class="footer-heading">الخدمات</h6>
+                        <ul class="footer-menu">
+                            <li><a href="#services">تطوير المواقع</a></li>
+                            <li><a href="#services">تطبيقات الجوال</a></li>
+                            <li><a href="#services">الحلول السحابية</a></li>
+                            <li><a href="#services">أمان المعلومات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h6 class="footer-heading">روابط مهمة</h6>
+                        <ul class="footer-menu">
+                            <li><a href="#portfolio">أعمالنا</a></li>
+                            <li><a href="#process">خطة العمل</a></li>
+                            <li><a href="#technologies">التقنيات</a></li>
+                            <li><a href="#faq">أسئلة شائعة</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-contact">
+                        <h6 class="footer-heading">تواصل معنا</h6>
+                        <div class="footer-contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:boudtech.info@gmail.com">
+                                boudtech.info@gmail.com
+                            </a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="bi bi-whatsapp"></i>
+                            <a href="https://wa.me/966500000000">+966 50 000 0000</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">&copy; 2025 BoudTech - بعد تك. جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/966500000000" class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var portfolioCarousel = document.querySelector('#portfolioCarousel');
+        var carousel = new bootstrap.Carousel(portfolioCarousel, {
+            interval: 3000, // 3 seconds
+            ride: 'carousel' // autoplay
+        });
+    </script>
+
+</body>
+</html>

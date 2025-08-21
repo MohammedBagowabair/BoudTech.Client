@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoudTech.Client", "BoudTech.Client\BoudTech.Client.csproj", "{69D80B81-8608-4910-9040-7E20B8A14502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D80B81-8608-4910-9040-7E20B8A14502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D80B81-8608-4910-9040-7E20B8A14502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D80B81-8608-4910-9040-7E20B8A14502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D80B81-8608-4910-9040-7E20B8A14502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13D1EBE9-1F74-4B48-ABBF-139B2A10BE8D}
+	EndGlobalSection
+EndGlobal
